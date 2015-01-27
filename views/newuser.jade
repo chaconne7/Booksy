@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1= 'Add New Comment'
+    form#formAddUser(name="adduser",method="post",action="/adduser", class='commentform')
+        input#inputUserName(type="text", placeholder="username", name="username")
+        input#inputUserEmail(type="text", placeholder="Enter comment here", name="useremail")
+        button#btnSubmit(type="submit") submit

@@ -1,0 +1,154 @@
+body {
+  padding: 50% 0%;
+  margin: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('../images/books.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: 'Droid Serif', serif;
+  color: white;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.username{
+	font-family: 'Droid Serif', serif;
+	font-weight: bold;
+}
+
+li p{
+	text-decoration: none;
+}
+
+.page1{
+	height:1000px;
+}
+.page2{
+	height: 1000px;
+}
+.page3{
+	height: 1000px;
+}
+.page4{
+	height: 1000px;
+}
+html{
+	background: url('books.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+nav{
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	padding: 10 px 0;
+	margin: 20px 0 0;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.slogan{
+	position: fixed;
+	top: 60%;
+	left: 51%;
+	-webkit-transform: translate(-50%, 0);*/
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+}
+
+.centered p{
+	font-size: 6.5em;
+	font-family: 'Berkshire Swash', serif;
+	color: white;
+}
+.overlay{
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	overflow: auto;
+	top: 0px;
+	left: 0px;
+	background: rgba(10,0,130,0.6);
+}
+nav ul{
+	list-style: none;
+	padding: 0 0 0 60%;
+}
+
+nav li{
+	display: inline-block;
+} 
+
+nav p{
+	margin: 0 0 0 40px;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+
+}
+
+.books{
+	display: none;
+}
+
+.features{
+	display: none;
+}
+
+.contact{
+	display: none;
+}
+
+.commentform{
+	position: absolute;
+	top-margin: -500px;
+	left-margin: 0px;
+	z-index: 1;
+	
+}
+
+.tomSawyerPage{
+	display: none;
+	position:absolute;
+	width:70%;
+	margin-left:3%;
+}
+
+.pridePrejudicePage{
+	display: none;
+	position:absolute;
+	width:70%;
+	margin-left:3%;
+}
+
+.treasureIslandPage{
+	display: none;
+	position:absolute;
+	width:70%;
+	margin-left:3%;
+}
+
+.timeMachinePage{
+	display: none;
+	position:absolute;
+	width:70%;
+	margin-left:3%;
+}
+
+.invisibleManPage{
+	display: none;
+	position:absolute;
+	width:70%;
+	margin-left:3%;
+}
+
+
